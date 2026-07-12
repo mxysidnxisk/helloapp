@@ -1,20 +1,11 @@
-﻿class Program
+﻿Console.WriteLine("hello everyone");
+
+void GreetWhite()
 {
-<<<<<<< HEAD
-=======
-    static void SayHello()
-    {
-        Console.WriteLine("hello everyone");
-    }
+    Console.WriteLine("hello white");
+}
 
->>>>>>> 2fe39b7 (Change greeting to hello everyone)
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
-    }
-
-    static void GreetWhite()
-    {
-        Console.WriteLine("hello white");
-    }
+void GreetBlack()
+{
+    Console.WriteLine("hello black");
 }
