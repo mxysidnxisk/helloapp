@@ -1,14 +1,12 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
-    static void SayHello()
-    {
-        Console.WriteLine("hello");
-    }
-
     static void Main(string[] args)
     {
-        SayHello();
+        Console.WriteLine("Hello, World!");
+    }
+
+    static void GreetWhite()
+    {
+        Console.WriteLine("hello white");
     }
 }
